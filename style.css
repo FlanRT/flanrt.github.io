@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Comfortaa|Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Comfortaa|Playfair+Display|Roboto+Condensed&display=swap');  
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+html {
+    background-color : #2D2D4B;
+}
+
+body {
+    width : 999px;
+    margin : 0 auto;
+    background-color : #65e7f8;
+    padding : 0 19px 19px 19px;
+    border : 9px double #5A5A97;
+}
+
+h1 {
+    text-align : center;
+    font-family : "Playfair Display";
+    font-size : 50px; 
+}
+
+h2 {
+    text-align : center;
+    font-family: "Kaushan Script";
+    letter-spacing: 9px;
+    font-size : 19px;
+}
+
+#header-paragraph {
+    margin : 0 auto;
+    padding: 9px 199px 30px 199px;
+    text-align : center;
+    font-family : "Zhi Mang Xing", sans-serif;
+    font-size : 25px;
+}
+
+img {
+    display : block;
+    margin : 0 auto;
+}
+
+ul {
+    line-height: 2;
+    font-size : 19px;
+    letter-spacing: 5px;
+    font-family : "Roboto Condensed";
+    list-style : none;
+}
+
+li:before {
+    content : "⑨";
+    font-size : 19px;
+    color : #3333ff;
+}
+
+button {
+    background-color: #33ccff;
+    border : none;
+    color :black;
+    padding : 29px 39px;
+    text-align : center;
+    text-decoration : none;
+    display : inline-block;
+    font-size : 19px; 
+    font-family : "Playfair Display";
+    letter-spacing: 3px;
+}
